@@ -14,7 +14,7 @@ const PopularCard = (product:PopularProduct) => {
         <div className="popular__data">
           <h3 className="popular__name">{product.name}</h3>
           <p className="popular__description">{product.description}</p>
-          <button className="button">{product.price}</button>
+          <button className="button button-dark">{product.price}</button>
         </div>
       </div>
     </div>
