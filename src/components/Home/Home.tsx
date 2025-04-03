@@ -1,4 +1,4 @@
-import React from 'react'
+import "./home.css"
 
 const Home = () => {
   {/*A komponens megírásához szükséges css osztályokat a home.css-ben találod.*/}

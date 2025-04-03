@@ -70,6 +70,9 @@
 
 .contact__delivery {
     top: -2.5rem;
+    -webkit-mask-image: linear-gradient(to bottom,
+            var(--first-color) 88%,
+            transparent);
     mask-image: linear-gradient(to bottom,
             var(--first-color) 88%,
             transparent);
