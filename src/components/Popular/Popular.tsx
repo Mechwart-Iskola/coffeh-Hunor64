@@ -24,9 +24,9 @@ const Popular = () => {
   })
   {/*Hozz létre egy popularcard komponenst és a lementett adatokat ezen keresztül jelenítsd meg*/}
   return (
-    <div className="popular">
-      <h1 className="section__title">Popular Products</h1>
-      <div className="popular__container">
+    <div className="popular" id="popular">
+      <h2 className="section__title">Popular <br /> Products</h2>
+      <div className="popular__coffes">
 
       {products.map(product => (
         <PopularCard {...product}/>
